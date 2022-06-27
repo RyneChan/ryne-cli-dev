@@ -1,13 +1,13 @@
 {
   "name": "@ryne-cli-dev/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ryne-cli-dev core",
   "author": "ryne <hi@ryne.cc>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
-  "bin":{
-    "ryne-cli-dev":"bin/index.js"
+  "bin": {
+    "ryne-cli-dev": "bin/index.js"
   },
   "directories": {
     "lib": "lib",
