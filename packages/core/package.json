@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin":{
+    "ryne-cli-dev":"bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,5 +22,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "ac3c1a825144ea5b503ebd892d2dfb2b8d5a34bb"
+  "gitHead": "aa5b33a4e04ce8cea3955fd7c84fb45b2bf3c94b"
 }
