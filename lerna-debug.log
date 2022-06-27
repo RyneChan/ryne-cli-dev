@@ -1,10 +1,6 @@
-0 silly argv { _: [ 'create' ], lernaVersion: '5.1.6', '$0': 'lerna', name: 'core' }
-1 notice cli v5.1.6
-2 verbose rootPath /Users/ryne/Desktop/ryne-cli-dev/ryne-cli-dev
-3 error Error: Command failed with exit code 1: git config --get user.email
-3 error     at makeError (/Users/ryne/Desktop/ryne-cli-dev/ryne-cli-dev/node_modules/_execa@5.1.1@execa/lib/error.js:60:11)
-3 error     at Function.module.exports.sync (/Users/ryne/Desktop/ryne-cli-dev/ryne-cli-dev/node_modules/_execa@5.1.1@execa/index.js:194:17)
-3 error     at Object.execSync (/Users/ryne/Desktop/ryne-cli-dev/ryne-cli-dev/node_modules/_@lerna_child-process@5.1.6@@lerna/child-process/index.js:39:16)
-3 error     at CreateCommand.gitConfig (/Users/ryne/Desktop/ryne-cli-dev/ryne-cli-dev/node_modules/_@lerna_create@5.1.6@@lerna/create/index.js:181:25)
-3 error     at CreateCommand.initialize (/Users/ryne/Desktop/ryne-cli-dev/ryne-cli-dev/node_modules/_@lerna_create@5.1.6@@lerna/create/index.js:107:47)
-3 error     at /Users/ryne/Desktop/ryne-cli-dev/ryne-cli-dev/node_modules/_@lerna_command@5.1.6@@lerna/command/index.js:274:24
+42 error Error: Command failed with exit code 128: git tag v1.0.1 -m v1.0.1
+42 error fatal: tag 'v1.0.1' already exists
+42 error     at makeError (/Users/ryne/Desktop/ryne-cli-dev/ryne-cli-dev/node_modules/_execa@5.1.1@execa/lib/error.js:60:11)
+42 error     at handlePromise (/Users/ryne/Desktop/ryne-cli-dev/ryne-cli-dev/node_modules/_execa@5.1.1@execa/index.js:118:26)
+42 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+42 error     at async Promise.all (index 0)
