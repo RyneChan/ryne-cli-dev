@@ -1,6 +1,6 @@
 {
   "name": "@ryne-cli-dev/utils",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "ryne <hi@ryne.cc>",
   "homepage": "",
@@ -19,5 +19,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "aa5b33a4e04ce8cea3955fd7c84fb45b2bf3c94b"
+  "gitHead": "b8a076fd55847b5b8c78f31b4c91d09fead7b713"
 }
